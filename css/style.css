@@ -1,0 +1,97 @@
+/* Algemene reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header en navigatie */
+header {
+    background-color: #66ACE9;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ header img {
+    width: 10vw;
+    height: auto;
+  }
+ a {
+    color: #ffffff;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+a:hover {
+    color: blue;
+}
+/* body stijl */
+body {
+    background-color: #3e5a9c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* eerste sectie */
+.foto {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    column-gap: 20px;
+   
+}
+/* afbeelding */
+img {
+    display: flex;
+    justify-content:  flex-end;
+}
+.podcast-section {
+    display: flex; /* Flexbox activeren */
+    justify-content: center; /* Ruimte tussen de afbeelding en de tekst */
+    /* align-items: baseline; Verticaal uitlijnen van de items */
+    padding: 20px;
+}
+.text-content {
+    padding: 20px;
+    display: flex;
+}
+.over-ons {
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+/*overzicht pagina */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/*contact */
+main {
+    display: flex;
+    justify-content: space-around
+}
+.team-member {
+    background-color: #c2d9e4;
+    margin: 2em; /* em past afmeting aan op basis van de context waarin het wordt gebruikt.*/
+    padding: 2em;
+    width: 50vw; /* Breedte op basis van viewport */
+} 
+/*animatie */
+/*footer(inspiratie van chat gpt)*/
+footer {
+    background-color: #66ACE9;
+    display: flex;
+    justify-content:center;
+    padding: 2em;
+}
+.footertekst {
+    text-align: center;
+    color:#ffffff
+}
